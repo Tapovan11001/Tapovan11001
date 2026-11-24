@@ -30,17 +30,17 @@
       .dim  { fill: #6b7186; }
       .hi   { fill: #ffb067; }
       .ok   { fill: #6fe3a5; }
-      .line { opacity: 0; animation: show 0.01s forwards; }
+      .line { animation: show 0.3s ease-out backwards; }
       .l1 { animation-delay: 0.4s; } .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 2.0s; } .l4 { animation-delay: 2.8s; }
       .cursor { animation: blink 1s steps(1) infinite; }
       .orb { animation: drift 9s ease-in-out infinite alternate; transform-origin: center; }
       .bar { animation: grow 1.6s cubic-bezier(.2,.8,.2,1) forwards; transform-origin: left; transform: scaleX(0); }
-      @keyframes show { to { opacity: 1; } }
+      @keyframes show { from { opacity: 0; } to { opacity: 1; } }
       @keyframes blink { 50% { opacity: 0; } }
       @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px, 18px); } }
       @keyframes grow { to { transform: scaleX(1); } }
       @media (prefers-reduced-motion: reduce) {
-        .line { opacity: 1; animation: none; } .cursor, .orb { animation: none; } .bar { transform: none; animation: none; }
+        .line { animation: none; } .cursor, .orb { animation: none; } .bar { transform: none; animation: none; }
       }
     </style>
   </defs>
