@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Aarav Makhija</title>
+  <desc id="d">Student, CTO at TAPOVAN Impex, builds small AI agents that do real work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d12"/>
+      <stop offset="1" stop-color="#111522"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9a3c"/>
+      <stop offset="0.5" stop-color="#ff5e7e"/>
+      <stop offset="1" stop-color="#7c6cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.1" cy="1" r="0.5">
+      <stop offset="0" stop-color="#ff9a3c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ff9a3c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="22"/></clipPath>
+    <style>
+      .name { font: 700 64px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; letter-spacing: -1.5px; fill: #f4f5f8; }
+      .role { font: 500 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; fill: #a9afc0; }
+      .mono { font: 500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #c9cde0; }
+      .dim  { fill: #6b7186; }
+      .hi   { fill: #ffb067; }
+      .ok   { fill: #6fe3a5; }
+      .line { opacity: 0; animation: show 0.01s forwards; }
+      .l1 { animation-delay: 0.4s; } .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 2.0s; } .l4 { animation-delay: 2.8s; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      .orb { animation: drift 9s ease-in-out infinite alternate; transform-origin: center; }
+      .bar { animation: grow 1.6s cubic-bezier(.2,.8,.2,1) forwards; transform-origin: left; transform: scaleX(0); }
+      @keyframes show { to { opacity: 1; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px, 18px); } }
+      @keyframes grow { to { transform: scaleX(1); } }
+      @media (prefers-reduced-motion: reduce) {
+        .line { opacity: 1; animation: none; } .cursor, .orb { animation: none; } .bar { transform: none; animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <g class="orb"><rect x="-60" y="-40" width="1320" height="400" fill="url(#glow)"/></g>
+    <rect width="1200" height="320" fill="url(#glow2)"/>
+    <rect class="bar" x="64" y="222" width="120" height="4" rx="2" fill="url(#accent)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <text x="64" y="122" class="name">Aarav Makhija</text>
+  <text x="66" y="164" class="role">Student · CTO at TAPOVAN Impex</text>
+  <text x="66" y="194" class="role">Building small AI agents that do real work</text>
+  <text x="66" y="266" class="mono dim">New Delhi, India · open to weekend remote internships</text>
+
+  <!-- terminal -->
+  <g transform="translate(760 60)">
+    <rect width="376" height="200" rx="14" fill="#0a0c11" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.09"/>
+    <circle cx="22" cy="20" r="5" fill="#ff5f57"/><circle cx="40" cy="20" r="5" fill="#febc2e"/><circle cx="58" cy="20" r="5" fill="#28c840"/>
+    <text x="22" y="66" class="mono line l1"><tspan class="hi">$</tspan> whoami</text>
+    <text x="22" y="94" class="mono line l2"><tspan class="dim">→</tspan> student, builder, exporter</text>
+    <text x="22" y="130" class="mono line l3"><tspan class="hi">$</tspan> now</text>
+    <text x="22" y="158" class="mono line l4"><tspan class="ok">●</tspan> shipping agents in TypeScript<tspan class="cursor hi">▍</tspan></text>
+  </g>
+</svg>
