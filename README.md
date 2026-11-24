@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Aarav Makhija. Student builder in New Delhi who makes websites, ops tools and small AI agents." width="100%">
+  <img src="./assets/header.svg" alt="Aarov Makhija. Student builder in New Delhi who makes websites, ops tools and small AI agents." width="100%">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Open_to-weekend_remote_internships-111522?style=flat-square&logo=rocket&logoColor=7c6cff" alt="Open to weekend remote internships">
 </p>
 
-## Hi, I'm Aarav
+## Hi, I'm Aarov
 
 I build websites and the systems behind small businesses, and I'm learning in public how far one person with AI can go.
 

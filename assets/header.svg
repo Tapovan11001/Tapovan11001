@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
-  <title id="t">Aarav Makhija</title>
+  <title id="t">Aarov Makhija</title>
   <desc id="d">Student builder in New Delhi. Websites, ops tools and small AI agents.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -54,7 +54,7 @@
   </g>
   <rect x="0.5" y="0.5" width="1199" height="319" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
 
-  <text x="64" y="122" class="name">Aarav Makhija</text>
+  <text x="64" y="122" class="name">Aarov Makhija</text>
   <text x="66" y="164" class="role">Student builder · websites and ops tools</text>
   <text x="66" y="194" class="role">Building small AI agents that do real work</text>
   <text x="66" y="266" class="mono dim">New Delhi, India · open to weekend remote internships</text>
