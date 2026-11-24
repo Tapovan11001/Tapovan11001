@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://aarav-makhija.vercel.app"><img src="https://img.shields.io/badge/Website-aarav--makhija.vercel.app-111522?style=flat-square&logo=vercel&logoColor=white" alt="Website"></a>
   <a href="mailto:makhijaaarav100@gmail.com"><img src="https://img.shields.io/badge/Email-makhijaaarav100%40gmail.com-111522?style=flat-square&logo=gmail&logoColor=ff9a3c" alt="Email"></a>
   <img src="https://img.shields.io/badge/Based_in-New_Delhi-111522?style=flat-square&logo=googlemaps&logoColor=ff5e7e" alt="New Delhi">
   <img src="https://img.shields.io/badge/Open_to-weekend_remote_internships-111522?style=flat-square&logo=rocket&logoColor=7c6cff" alt="Open to weekend remote internships">
