@@ -30,7 +30,7 @@
       .dim  { fill: #6b7186; }
       .hi   { fill: #ffb067; }
       .ok   { fill: #6fe3a5; }
-      .line { animation: show 0.3s ease-out backwards; }
+      .line { }
       .l1 { animation-delay: 0.4s; } .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 2.0s; } .l4 { animation-delay: 2.8s; }
       .cursor { animation: blink 1s steps(1) infinite; }
       .orb { animation: drift 9s ease-in-out infinite alternate; transform-origin: center; }
